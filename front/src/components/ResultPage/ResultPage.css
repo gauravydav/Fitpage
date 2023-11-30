@@ -1,0 +1,35 @@
+/* ResultPage.css */
+
+/* Default styles */
+.criteria-list {
+    list-style: none;
+    padding: 10px;
+  }
+  
+  .criteria-container {
+    background-color: #01131b;
+    padding: 20px;
+    color: white;
+    font-size: 13px;
+    font-family: "Lora", serif;
+  
+    list-style: none;
+    background-color: #01131b;
+    height: 230px;
+    padding-left: 5px;
+    width: 22%;
+    margin: 50px auto;
+    font-size: medium;
+  }
+  
+  .criteria-container li {
+    border-bottom: 1px dotted white;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .criteria-container {
+      width: 70%;
+    }
+  }
+  
