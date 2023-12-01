@@ -11,7 +11,7 @@ const ResultPage = () => {
     const fetchData = async () => {
       try {
         // Fetch data from the API
-        const response = await fetch("http://localhost:8000/api/data");
+        const response = await fetch("https://backend-fitpage.onrender.com/api/data");
         const result = await response.json();
 
         // Check the structure of the API response

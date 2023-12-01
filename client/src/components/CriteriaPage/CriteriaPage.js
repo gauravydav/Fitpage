@@ -12,7 +12,7 @@ const CriteriaPage = () => {
     const fetchCriteria = async () => {
       try {
         // Fetch criteria data based on the name from your API
-        const response = await fetch(`http://localhost:8000/api/data`);
+        const response = await fetch(`https://backend-fitpage.onrender.com/api/data`);
         const result = await response.json();
 
         // Find the item with the matching name

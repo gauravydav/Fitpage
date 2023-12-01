@@ -9,7 +9,7 @@ const HomePage = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:8000/api/data');
+        const response = await fetch('https://backend-fitpage.onrender.com/api/data');
         const result = await response.json();
         setData(result.data);
       } catch (error) {
